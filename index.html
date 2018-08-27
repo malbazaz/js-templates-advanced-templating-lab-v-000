@@ -8,7 +8,7 @@
   </head>
   <body>
     <main id="main">
-      <script id="my-template" type="text/x-handlebars-template">
+      <!-- <script id="my-template" type="text/x-handlebars-template">
     <div id="recipe">
       <p>{{description}}</p>
       <ul>
@@ -17,7 +17,13 @@
         {{/each}}
       </ul>
     </div>
-  </script>
+  </script> -->
+  <form id="recipe-template" onsubmit="createPost();return false;">
+      Title: <input type="text" id="postTitle"><br>
+      Author: <input type="text" id="postAuthor"><br>
+      Post: <input type="text" id="postBody"><br>
+      <input type="submit">
+    </form>
     </main>
     <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
     <script src="index.js"></script>
