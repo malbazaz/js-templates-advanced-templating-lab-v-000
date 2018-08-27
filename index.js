@@ -8,5 +8,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 })
 
 function createRecipe(){
-  
+
+var recipeTemplate = _.template(document.getElementById("recipe-form").innerHTML)
+
 }
