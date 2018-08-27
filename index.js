@@ -6,7 +6,7 @@ var recipe = {
     {quantity: "12", name: 'noodles'}
   ]
 }
- 
+
 var template = Handlebars.compile(document.getElementById("my-template").innerHTML);
 var html = template(recipe);
 
